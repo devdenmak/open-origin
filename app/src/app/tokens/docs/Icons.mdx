@@ -1,0 +1,19 @@
+import { Meta, Title, IconGallery, IconItem } from '@storybook/blocks';
+import { getAllIconsNames } from '../../icons';
+import { Icon as IconExample } from '../../../shared/ui/Icon';
+
+<Meta title="Design Tokens/Icons" />
+
+# Icons
+
+<br />
+
+<IconGallery>
+{
+  getAllIconsNames().map((iconName, i) => (
+    <IconItem key={i} name={iconName}>
+        <IconExample name={iconName} />
+    </IconItem>
+  )) 
+}
+</IconGallery>

@@ -1,0 +1,627 @@
+{
+  "Common": {
+    "date": {
+      "upd": "upd. {updatedDate, date, medium}",
+      "updated": "updated {updatedDate, date, medium}",
+      "lastUpdated": "Last updated {updatedDate, date, medium}"
+    },
+    "toaster": {
+      "successfully": "Successfully",
+      "error": "An error has occurred"
+    },
+    "actions": {
+      "loading": "Please wait",
+      "downloadWhitepaper": "Download Whitepaper",
+      "logout": "Log out",
+      "logIn": "Log In",
+      "signUp": "Sign Up",
+      "getStarted": "Get Started",
+      "next": "Next",
+      "hidePassword": "Hide password",
+      "showPassword": "Show password",
+      "lightTheme": "Light theme",
+      "darkTheme": "Dark theme",
+      "createAccount": "Create Account",
+      "createModel": "Create Model",
+      "sendCode": "Send code",
+      "back": "Back",
+      "confirm": "Confirm",
+      "setNewPassword": "Set new password",
+      "loginWithNewPassword": "Log In with new password",
+      "saveChanges": "Save Changes",
+      "deleteAccount": "Delete my account",
+      "upload": "Upload files",
+      "uploadDrag": "Drag or upload a files",
+      "editProfile": "Edit Profile",
+      "addModel": "Add model",
+      "updateModel": "Update model",
+      "getThisModel": "Get this model",
+      "editModelInfo": "Edit model info",
+      "search": "Search",
+      "notify": "Notify me"
+    },
+    "navigation": {
+      "models": "Models",
+      "platform": "Platform",
+      "docs": "Docs",
+      "token": "Token",
+      "roadmap": "Roadmap",
+      "settings": "Settings",
+      "account": "Account",
+      "theme": "Theme",
+      "profile": "Profile",
+      "about": "About",
+
+      "myProfile": "My Profile",
+      "myModels": "My Models",
+      "favorites": "Favourites",
+      "comments": "Comments",
+
+      "goPremium": "Go Premium"
+    },
+    "fields": {
+      "input": {
+        "email": {
+          "title": {
+            "simple": "Email",
+            "you": "Your Email"
+          },
+          "placeholder": {
+            "withUsername": "Email or Username",
+            "simple": "Email",
+            "enter": "Enter your Email"
+          }
+        },
+        "password": {
+          "title": {
+            "simple": "Password",
+            "create": "Create Password",
+            "newEnter": "Enter new password",
+            "repeat": "Repeat new password",
+            "old": "Old password",
+            "new": "New password",
+            "confirm": "Confirm your new password"
+          },
+          "placeholder": {
+            "simple": "Password",
+            "enter": "Enter your Password",
+            "create": "Create your Password",
+            "new": "Your new password",
+            "repeat": "Repeat password",
+            "enterNew": "Enter new password",
+            "enterOld": "Enter old password",
+            "confirmNew": "Confirm new password"
+          }
+        },
+        "username": {
+          "title": {
+            "simple": "Username"
+          },
+          "placeholder": {
+            "simple": "@username"
+          }
+        },
+        "name": {
+          "title": {
+            "simple": "Name"
+          },
+          "placeholder": {
+            "fullName": "Full Name"
+          }
+        },
+        "githubUserName": {
+          "title": {
+            "optional": "GitHub Username (optional)"
+          },
+          "placeholder": {
+            "simple": "@username"
+          }
+        },
+        "blockchainInterest": {
+          "title": {
+            "simple": "AI and Blackchain interests (optional)"
+          },
+          "placeholder": {
+            "simple": "Tell your interests"
+          }
+        },
+        "code": {
+          "title": {
+            "simple": "6-digit code"
+          },
+          "placeholder": {
+            "simple": "000000"
+          }
+        },
+        "avatar": {
+          "title": {
+            "simple": "Avatar"
+          }
+        },
+        "modelName": {
+          "title": {
+            "simple": "Model name"
+          },
+          "placeholder": {
+            "enter": "Enter model name"
+          }
+        },
+        "modelType": {
+          "title": {
+            "simple": "Model Type:"
+          },
+          "placeholder": {
+            "enter": "Enter model type"
+          }
+        },
+        "license": {
+          "title": {
+            "simple": "License"
+          },
+          "placeholder": {
+            "enter": "Enter license"
+          }
+        },
+        "finetuned": {
+          "title": {
+            "optional": "Finetuned from model: (optional)"
+          },
+          "placeholder": {
+            "enter": "Enter model name"
+          }
+        },
+        "languages": {
+          "title": {
+            "simple": "Languages:"
+          },
+          "placeholder": {
+            "enter": "Enter languages"
+          }
+        },
+        "category": {
+          "title": {
+            "simple": "Category:"
+          },
+          "placeholder": {
+            "select": "Select"
+          }
+        },
+        "useCase": {
+          "title": {
+            "simple": "Use case:"
+          },
+          "placeholder": {
+            "select": "Select"
+          }
+        },
+        "avalability": {
+          "title": {
+            "self": "Avalability:",
+            "public": "Public",
+            "private": "Private",
+            "premium": "Premium"
+          },
+          "placeholder": {
+            "public": "Anyone can see this model. Only you can commit.",
+            "private": "Only you can see this model.",
+            "premium": "Your model will only be available for premium users."
+          }
+        },
+        "linkToDownload": {
+          "title": {
+            "simple": "Link to download:"
+          },
+          "placeholder": {
+            "enter": "Enter link"
+          }
+        },
+        "emoji": {
+          "title": {
+            "pick": "Pick emoji:"
+          },
+          "placeholder": {
+            "pick": "Pick emoji"
+          }
+        },
+        "gallery": {
+          "title": {
+            "simple": "Gallery"
+          }
+        },
+        "description": {
+          "title": {
+            "simple": "Description"
+          },
+          "placeholder": {
+            "hello": "**Hello world!!!**"
+          }
+        },
+        "search": {
+          "placeholder": {
+            "simple": "Search models"
+          }
+        }
+      },
+
+      "validation": {
+        "passwordNotMatch": "Passwords don't match",
+        "leastCharacters": "At least 8 characters",
+        "leastDigit": "At least one digit",
+        "leastSpecialSymbols": "At least one special symbol (!;* etc)",
+        "leastUppercase": "At least one uppercase letter",
+        "too-many-files": "Maximum number of files exceeded",
+        "file-invalid-type": "Invalid file format",
+        "file-too-large": "Invalid file size",
+        "unexpected": "An unexpected error has occurred"
+      }
+    },
+
+    "conditions": "I have read and agree with the <terms>Terms of Service</terms> and the <conduct>Code of Conduct</conduct>",
+    "previeModeText": "This functionality is operational but disabled because the credentials are publicly accessible.",
+    "noData": "No data",
+    "like": "{total, plural, =0 {0 likes} =1 {1 like} other {# likes}}"
+  },
+
+  "Header": {
+    "title": "Open Origin"
+  },
+
+  "Footer": {
+    "copyright": "© OpenOrigin {year}"
+  },
+
+  "AboutPage": {
+    "title": "About page",
+    "description": "About page description",
+    "pageTitle": "About OpenOrigin",
+    "pageDecription": "OpenOrigin AI is the AI platform made for crypto. Offering a wide range of AI Services, all powered by $OAI."
+  },
+
+  "RoadmapPage": {
+    "title": "Roadmap page",
+    "description": "Roadmap page description",
+    "pageTitle": "Project Roadmap",
+    "roadmap": {
+      "title": {
+        "first": "q3 2024",
+        "second": "q4 2024",
+        "third": "q1 2025",
+        "fourth": "q2 2025"
+      },
+      "list": {
+        "first": "Public release of website.",
+        "second": "Establish social channels.",
+        "third": "Develop inference API.",
+        "fourth": "Develop Premium subscription service.",
+        "fifth": "Coordinate partnerships and integrations in preparation for the public launch.",
+        "sixth": "Development of website social features",
+        "seventh": "Release inteference services",
+        "eighth": "Release Premium subscription service",
+        "nineth": "OAI token launch",
+        "tenth": "Release staking dApp",
+        "eleventh": "Develop AI community dApp store",
+        "twelfth": "Develop community cloud computing",
+        "thirteenth": "New exchange listing",
+        "fourteenth": "New partnerships",
+        "fifteenth": "Release AI community dApp store",
+        "sixteenth": "Enhance Open Origin AI storage decentralization",
+        "seventeenth": "Release website social features",
+        "eighteenth": "Community cloud computing beta",
+        "nineteenth": "New chain bridge",
+        "twentieth": "New integrations",
+        "twentyFirst": "Release public analytics dashboard",
+        "twentySecond": "Release community cloud computing"
+      }
+    },
+    "label": "Roadmap Sets Expected Goals/Dates. The Above May Change."
+  },
+
+  "TokenPage": {
+    "title": "Token page",
+    "description": "Token page description",
+    "pageTitle": "Token Utility",
+    "total": "Total",
+    "cells": {
+      "first": {
+        "title": "Staking",
+        "text": "Earn passively through staking"
+      },
+      "second": {
+        "title": "Governance voting",
+        "text": "Participate in community votes and have a say in the direction of decentralized AI"
+      },
+      "third": {
+        "title": "Inference API access",
+        "text": "Develop applications with our inference API"
+      },
+      "fourth": {
+        "title": "Premium subscription",
+        "text": "Unlock private model & dataset hosting and early access to new features"
+      },
+      "fifth": {
+        "title": "Premium subscription benefits",
+        "text": "Exclusive profile badge and higher platform inference limits"
+      },
+      "sixth": {
+        "title": "Fuel platform inference",
+        "text": "run models on the cloud without hardware requirements"
+      }
+    },
+    "statistics": {
+      "first": {
+        "title": "Total Supply",
+        "text": "1 000 000 000"
+      },
+      "second": {
+        "title": "Current Supply",
+        "text": "4 500 000"
+      },
+      "third": {
+        "title": "Contract 1",
+        "text": "4 500 000"
+      },
+      "fourth": {
+        "title": "Contract 2",
+        "text": "4 500 000"
+      },
+      "fifth": {
+        "title": "Smart Contract Audit",
+        "text": "4 500 000"
+      }
+    },
+
+    "table": {
+      "head": {
+        "first": "Token Use",
+        "second": "Total Supply",
+        "third": "% of Supply",
+        "fourth": "Vesting"
+      }
+    }
+  },
+
+  "DocsPage": {
+    "title": "Docs page",
+    "description": "Docs page description"
+  },
+
+  "PlatformPage": {
+    "title": "Platform page",
+    "description": "Platform page description"
+  },
+
+  "ModelsPage": {
+    "title": "Models page",
+    "description": "Models page description",
+    "heading": "Browse AI models in crypto space",
+    "available": "{total, plural, =0 {0 models} =1 {1 model} other {# models}} available",
+    "premiumOnly": "Premium only"
+  },
+
+  "ModelsCreatePage": {
+    "title": "Add model",
+    "description": "Add model",
+    "titleAdd": "Add model"
+  },
+
+  "ModelsEditPage": {
+    "title": "Edit model",
+    "description": "Edit model",
+    "titleEdit": "Edit model"
+  },
+
+  "ModelPage": {
+    "title": "Model Page",
+    "description": "Model Page Description",
+    "tag": "Tag:",
+    "languages": "Languages:",
+    "license": "License:",
+    "finetuned": "Finetuned from model:",
+    "modelType": "Model Type",
+    "about": "About"
+  },
+
+  "ForgotPasswordPage": {
+    "title": "ForgotPassword page",
+    "description": "ForgotPassword page description"
+  },
+
+  "SignUpPage": {
+    "title": "SignUp page",
+    "description": "SignUp page description",
+    "join": "Join OpenOrigin",
+    "joinCommunity": "Join our community",
+    "haveAccount": "Already have an account?",
+    "completeProfile": "Complete your profile",
+    "lastStep": "One last step to join the community"
+  },
+
+  "SignInPage": {
+    "title": "SignIn page",
+    "description": "SignIn page description",
+    "welcome": "Welcome to OpenOrigin!",
+    "notHaveAccount": "Do not have an account?",
+    "forgotPassword": "Forgot password"
+  },
+
+  "ResetPasswordPage": {
+    "title": "ResetPassword page",
+    "description": "ResetPassword page description",
+    "passwordReset": "Password reset",
+    "enterEmailText": "Enter your user account's email and we will send you a code to password reset.",
+    "successResetTitle": "Password reset succsessfully",
+    "successResetText": "Now you can log in with a new password."
+  },
+
+  "MainPage": {
+    "title": "Main page",
+    "description": "Main page description",
+    "intro": {
+      "title": "Empowering the Decentralized AI Community",
+      "description": "Collaborate, Build, and Deploy State-Of-The-Art Machine Learning Models With Ease, Supported by $OAI on Solana",
+      "getButton": "Get Access",
+      "exploreButton": "Explore all AI Models"
+    },
+    "partners": {},
+    "modelsCategories": {
+      "marketPlace": "AI models marketplace",
+      "title": "Igniting the Potential of Community-Driven AI",
+      "description": "Bringing decentralized AI to the people. Empowering freedom, fostering innovation, and standing against censorship with our secure, community-driven solutions.",
+      "categories": {
+        "title": {
+          "first": "Model hub",
+          "second": "Social sphere",
+          "third": "Dataset library",
+          "fourth": "DeAI Hub",
+          "fifth": "Inference API",
+          "sixth": "Explore OpenOrigin AI"
+        },
+        "description": {
+          "first": "community hub for open source models",
+          "second": "connect with community members and collaborate on open source AI",
+          "third": "open source ready to use datasets for machine learning",
+          "fourth": "decentralized AI apps and projects hub",
+          "fifth": "run models on the cloud without hardware requirements",
+          "sixth": "explore OpenOrigin AI"
+        },
+        "seeButton": "See Models"
+      }
+    },
+    "community": {
+      "title": "Our community is growing",
+      "description": "Explore Our Impact Through Key Metrics",
+      "lastUpdated": "Last Updated 08/06/2024"
+    },
+    "collaboration": {
+      "title": "In collaboration with"
+    },
+    "subscription": {
+      "title": "Premium Subscriprion",
+      "categories": {
+        "title": {
+          "first": "Private model early access",
+          "second": "Platform inference",
+          "third": "Premium access"
+        },
+        "description": {
+          "first": "Upgrade and unlock private model hosting, early access to new features",
+          "second": "Higher rate limits for platform inference",
+          "third": "Support open source AI with a premium badge"
+        }
+      },
+      "requestButton": "Request Access"
+    },
+    "token": {
+      "title": "OAI Token Utility",
+      "text": "OAI on Solana is essential to the Open Origin AI platform. Explore the the token utilities and benefits to learn more",
+      "buttonToken": "OAI Token",
+      "buttonExplore": "Explore Token",
+      "categoreis": {
+        "first": "Staking",
+        "second": "Inference API access",
+        "third": "Fuel platform inference",
+        "fourth": "Premium subscription",
+        "fifth": "Governance voting"
+      }
+    },
+    "faq": {
+      "title": "FAQ’s",
+      "questions": {
+        "first": {
+          "question": "Can I use the platform for free?",
+          "answer": "Yes! OpenOrigin is free for everyone with more features for premium users"
+        },
+        "second": {
+          "question": "Why is the team non-doxed?",
+          "answer": "The team decided to prioritise their privacy, which we believe is in the spirit of blockchain. Some of the biggest blockchains were founded anonymously (eg Bitcoin)."
+        },
+        "third": {
+          "question": "Do I need to sign up to use OpenOrigin?",
+          "answer": "No! You can download models and datasets without signing up. We also support wallet login/registration which enhances decentralization and anonymity."
+        },
+        "fourth": {
+          "question": "How does OpenOrigin generate revenue?",
+          "answer": "We generate revenue through Premium subscriptions, platform inference, our API, and commercial applications."
+        },
+        "fifth": {
+          "question": "How is OpenOrigin decentralized?",
+          "answer": "We offer our own inference services, as well as through various third-parties. Models and datasets are also stored across multiple data centers which ensures platform stability and decentralization."
+        }
+      }
+    },
+    "getStarted": {
+      "title": "Join today and get early access to new features",
+      "text": "OpenOrigin AI merges advanced AI with blockchain technology. Join us to revolutionize the AI landscape with transparency and SOMETHING.",
+      "getStartedButton": "Get Started"
+    },
+    "whereused": {
+      "title": "Featured In Leading Tech, Finance, and Crypto Publications"
+    }
+  },
+
+  "NotFoundPage": {
+    "title": "404",
+    "description": "This page could not be found"
+  },
+
+  "ProfilePage": {
+    "title": "My profile",
+    "description": "My profile",
+    "pageTitle": "Interests",
+    "noInterests": "No interests."
+  },
+
+  "MyModelsPage": {
+    "title": "My models",
+    "description": "My models",
+    "pageTitle": "My models",
+    "deleteModel": "Delete Model",
+    "deleteDialogText": "You are going to delete your model with all data, including comments. This action is irreversible. Please confirm this action.",
+    "deleteDialogConfirm": "Yes, delete this model",
+    "deleteDialogClose": "I’ll think about it"
+  },
+
+  "FavoritesPage": {
+    "title": "Favourites",
+    "description": "Favourites",
+    "pageTitle": "Favourites"
+  },
+
+  "CommentsPage": {
+    "title": "Comments",
+    "description": "Comments"
+  },
+
+  "GoPremiumPage": {
+    "title": "Go Premium title",
+    "description": "Go Premium description",
+    "pageTitle": "Go Premium",
+    "formDescription": "Our premium subscription feature is currently in development. In case you are interested leave us a request and we will notify you as soon as feature is released.",
+    "cells": {
+      "first": "Early access to new features",
+      "second": "Higher platform inference limits",
+      "third": "Private model & dataset hosting",
+      "fourth": "Exclusive profile badge"
+    }
+  },
+
+  "SettingsPage": {
+    "title": "Profile Settings",
+    "description": "Profile Settings"
+  },
+
+  "SettingsAccount": {
+    "title": "Account Settings",
+    "description": "Account Settings",
+    "deleteAccount": "Delete Account",
+    "deleteDescription": "Delete your account permanently, this action is irreversible. All your models and comments will be deleted.",
+    "deleteDialogText": "You are going to delete your account with all data, including models and comments. This action is irreversible. Please confirm this action.",
+    "deleteDialogConfirm": "Yes, delete my account",
+    "deleteDialogClose": "I’ll think about it"
+  },
+
+  "SettingsTheme": {
+    "title": "SettingsTheme",
+    "description": "SettingsTheme"
+  }
+}

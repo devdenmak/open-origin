@@ -1,0 +1,11 @@
+<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Property 1=sort act" clip-path="url(#clip0_1_125)">
+<path id="Vector" d="M4.94444 3V13M4.94444 13L2.5 10.5M4.94444 13L7.38889 10.5M11.0556 13V3M11.0556 3L8.61111 5.5M11.0556 3L13.5 5.5" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<circle id="Vector_2" cx="13.5" cy="2.5" r="3.25" fill="black" stroke="white" stroke-width="1.5"/>
+</g>
+<defs>
+<clipPath id="clip0_1_125">
+<rect width="16" height="16" fill="white"/>
+</clipPath>
+</defs>
+</svg>

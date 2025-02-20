@@ -1,0 +1,49 @@
+import { Meta, ColorPalette, ColorItem } from '@storybook/blocks';
+import { capitalizeFirstLetter } from '../lib';
+import { colors } from '../colors';
+import { backgroundImage } from '../backgroundImage'
+import { boxShadow } from '../boxShadow'
+
+<Meta title="Design Tokens/Colors" />
+
+# Colors
+
+<br />
+
+## Base 
+
+<br />
+
+<ColorPalette>
+{ 
+  Object.entries(colors).map((token, i) => ( 
+    <ColorItem
+      key={i}
+      title={capitalizeFirstLetter(token[0])}
+      subtitle={'somethink-color:'}
+      colors={
+        Object.fromEntries(Object.entries(colors[token[0]]).map((value) => {
+          return [value[0], value[1]]
+        }))
+      }
+    />
+  )) 
+}
+</ColorPalette> 
+
+## Gradients
+
+<br />
+
+<ColorPalette>
+  <ColorItem
+      title={ `Gradient` }
+      subtitle={ `background-image:` }
+      colors={
+        Object.fromEntries(Object.entries(backgroundImage).map((value) => {
+          return [value[0], value[1]]
+        }))
+      }
+    />
+</ColorPalette>
+ 

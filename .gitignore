@@ -1,0 +1,38 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+/.cache/
+.pnp.js
+
+# testing
+/coverage
+
+# next.js
+/.next/
+/out/
+
+# ide
+/.vscode/
+/.idea
+
+# production
+/build
+/public/storybook
+/public/sprites
+/app/src/shared/ui/draft
+/app/src/shared/api/fetch
+/app/src/shared/api/swr
+/app/src/shared/api/model
+/app/src/shared/api/zod
+/storybook-static
+
+# misc
+.DS_Store
+.env
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*

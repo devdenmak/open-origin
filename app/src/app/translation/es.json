@@ -1,0 +1,15 @@
+{
+  "Common": {},
+  "Fields": {},
+  "Header": {},
+  "Footer": {},
+
+  "AuthPage": {},
+
+  "MainPage": {},
+
+  "NotFoundPage": {
+    "title": "404",
+    "description": "This page could not be found"
+  }
+}

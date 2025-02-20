@@ -1,0 +1,41 @@
+import { Meta, Typeset } from '@storybook/blocks';
+import { fontFamily } from '../fontFamily';
+import { fontSize } from '../fontSize';
+
+<Meta title="Design Tokens/Fonts" />
+
+export const SampleText = 'We develop web and mobile';
+
+# Fonts  
+
+<br />
+
+**Font:** HubotSans (headings) <br />
+**Weights:** 600(semibold)
+ 
+<Typeset
+  fontSizes={Object.entries(fontSize).map((token) => {
+    return parseFloat(token[1]) * 16
+  })}
+
+  fontWeight={'600'}
+  sampleText={SampleText}
+  fontFamily={fontFamily.headings}
+/>
+
+<br />
+
+**Font:** Barlow (main) <br />
+**Weights:** 400(regular), 500(medium), 700(bold)
+
+<Typeset
+  fontSizes={Object.entries(fontSize).map((token) => {
+    return parseFloat(token[1]) * 16
+  })}
+
+  fontWeight={'400'} 
+  sampleText={SampleText}
+  fontFamily={fontFamily.main}
+/>
+
+

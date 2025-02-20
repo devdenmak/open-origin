@@ -1,0 +1,10 @@
+<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Property 1=unlink" clip-path="url(#clip0_1_278)">
+<path id="Icon" d="M6.00004 2.66671V1.33337M10 13.3334V14.6667M2.66671 6.00004H1.33337M13.3334 10H14.6667M3.27618 3.27618L2.33337 2.33337M12.7239 12.7239L13.6667 13.6667M8.00004 11.7713L6.58583 13.1855C5.54443 14.2269 3.85599 14.2269 2.81459 13.1855C1.77319 12.1441 1.77319 10.4557 2.81459 9.41425L4.2288 8.00004M11.7713 8.00004L13.1855 6.58583C14.2269 5.54443 14.2269 3.85599 13.1855 2.81459C12.1441 1.77319 10.4557 1.77319 9.41425 2.81459L8.00004 4.2288" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<defs>
+<clipPath id="clip0_1_278">
+<rect width="16" height="16" fill="white"/>
+</clipPath>
+</defs>
+</svg>

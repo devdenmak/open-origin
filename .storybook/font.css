@@ -1,0 +1,6 @@
+@font-face {
+  font-family: HubotSans;
+  src: url('../public/fonts/HubotSans-SemiBold.woff2') format('woff2');
+  font-weight: 600;
+  font-style: normal;
+}

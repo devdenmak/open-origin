@@ -1,0 +1,28 @@
+FROM node:22.2.0-alpine
+
+ARG NEXT_PUBLIC_FRONTEND_URL
+ARG NEXT_PUBLIC_BACKEND_URL
+ARG NEXT_PUBLIC_GTAG
+
+ARG IMGPROXY_URL
+ARG IMGPROXY_SALT
+ARG IMGPROXY_KEY
+
+ENV NEXT_PUBLIC_BACKEND_URL=$NEXT_PUBLIC_BACKEND_URL NEXT_PUBLIC_FRONTEND_URL=$NEXT_PUBLIC_FRONTEND_URL NEXT_PUBLIC_GTAG=$NEXT_PUBLIC_GTAG IMGPROXY_URL=$IMGPROXY_URL IMGPROXY_SALT=$IMGPROXY_SALT IMGPROXY_KEY=$IMGPROXY_KEY
+
+WORKDIR /app
+
+COPY frontend/package.json frontend/package-lock.json /app/
+
+RUN npm install --global orval
+RUN npm install --global storybook
+RUN npm install --legacy-peer-deps
+
+
+COPY frontend /app
+
+RUN npm run api-generate
+RUN npm run build
+RUN npm run build-storybook
+
+CMD ["npm", "start"]
