@@ -34,7 +34,7 @@ const Image = ({
   alt,
   priority = false,
   fillParent = false,
-  loader = 'auto',
+  // loader = 'auto',
   sizes,
   unoptimized = false,
   loading = false,
@@ -43,7 +43,7 @@ const Image = ({
   const [loaded, setLoadedState] = useState(false)
   const _src = src || ImageNoImage
 
-  const imageLoader = useImageLoader(loader, _src)
+  const imageLoader = useImageLoader('next', _src)
 
   return (
     <div

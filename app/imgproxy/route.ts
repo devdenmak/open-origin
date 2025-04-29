@@ -8,19 +8,19 @@ import { handleError } from '@/src/shared/lib/handleError'
 const generateImageProxyUrl = (src: string, width: number, quality: number) => {
   const isAbsolute = checkAbsoluteUrl(src)
   const url = isAbsolute ? src : `${process.env.NEXT_PUBLIC_FRONTEND_URL}${src}`
-  const extension = /[.]/.exec(url) ? /[^.]+$/.exec(url) : undefined
-  const isSVG = extension?.[0] === 'svg'
+  // const extension = /[.]/.exec(url) ? /[^.]+$/.exec(url) : undefined
+  // const isSVG = extension?.[0] === 'svg'
 
   const imgProxyUrl = generateImageUrl({
     endpoint: `${process.env.IMGPROXY_URL}/`,
     url,
 
     options: {
-      format: isSVG ? 'svg' : 'webp',
+      // format: isSVG ? 'svg' : 'webp',
       quality: quality,
       width: width,
       // height: 1000,
-      resizing_type: 'fill',
+      // resizing_type: 'fill',
     },
 
     salt: process.env.IMGPROXY_SALT,
