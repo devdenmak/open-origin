@@ -12,14 +12,14 @@ ENV NEXT_PUBLIC_BACKEND_URL=$NEXT_PUBLIC_BACKEND_URL NEXT_PUBLIC_FRONTEND_URL=$N
 
 WORKDIR /app
 
-COPY frontend/package.json frontend/package-lock.json /app/
+COPY package.json package-lock.json /app/
 
 RUN npm install --global orval
 RUN npm install --global storybook
 RUN npm install --legacy-peer-deps
 
 
-COPY frontend /app
+COPY . /app
 
 RUN npm run api-generate
 RUN npm run build
