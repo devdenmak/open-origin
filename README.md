@@ -1,4 +1,4 @@
-# 🌐 [Link](https://openorigin-main.s.dev.family)
+# 🌐 [Link](https://openorigin.maxsimov.pro)
 
 - Login: `JaySmith`
 - Password: `JaySmith27041994!@$`
