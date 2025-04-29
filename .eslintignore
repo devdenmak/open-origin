@@ -2,3 +2,10 @@ node_modules/
 .next/
 .vscode/
 /public
+/build
+/app/src/shared/ui/draft
+/app/src/shared/api/fetch
+/app/src/shared/api/swr
+/app/src/shared/api/model
+/app/src/shared/api/zod
+/storybook-static
